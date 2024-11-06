@@ -1,12 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Badge from '../components/Badge.astro';
+
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
-		
+		<section class="w-full lg:w-[740px] mx-auto py-44">
+			<h1 class="text-white text-4xl font-bold flex flex-row gap-x-4 pb-5">Hey, soy Sebastián Gutierrez 
+				<div class="flex justify-center items-center"><Badge>Ingeniero Informático</Badge></div>
+			</h1>
+			<h2 class="text-xl opacity-80">Me espacializo en el área de Gestión De Proyectos TI / Desarrollo De Software</h2>
+			<h1>Soy el Puente Entre Tus Ideas y Tecnología, Transformo Tus Problemas En Soluciones Digitales</h1>
+		</section>
 	</main>
+
 </Layout>
 
 
