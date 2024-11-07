@@ -2,10 +2,15 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Badge from '../components/Badge.astro';
+import LinkedinIcon from '../components/icons/Linkedin.astro'
+import Social from '../components/Social.astro';
+import GithubIcon from '../components/icons/Github.astro';
+import MailIcon from '../components/icons/Mail.astro'
 
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Portafolio Sebastian Gutierrez - Ingeniero Informático" 
+		description="Soy sebastián Gutierrez tengo 22 años de edad estoy emocionado de compartir cómo puedo aportar valor a tu equipo.">
 	<main>
 		<section class="w-full lg:w-[740px] mx-auto py-44">
 			<img class="rounded-full w-12 h-12 mb-4" 
@@ -16,6 +21,22 @@ import Badge from '../components/Badge.astro';
 			</h1>
 			<h2 class="text-xl opacity-80">Me espacializo en el área de Gestión De Proyectos TI / Desarrollo De Software</h2>
 			<h1>Soy el Puente Entre Tus Ideas y Tecnología, Transformo Tus Problemas En Soluciones Digitales</h1>
+			<nav class="flex gap-x-4 mt-8">
+					<Social href="https://www.linkedin.com/in/sebasti%C3%A1n-guti%C3%A9rrez-quiroz-71683a1ba/">
+						<LinkedinIcon class="w-6 h-6"> </LinkedinIcon>
+						LinkedIn
+					</Social>
+					<Social href="https://github.com/sebagutierrez-CELL">
+						<GithubIcon class="w-6 h-6"> </GithubIcon>
+						Github
+					</Social>
+					<Social href="">
+						<MailIcon class="w-6 h-6"> </MailIcon>
+						seba.gutierrez1256@gmail.com
+					</Social>
+			</nav>		
+					
+			
 		</section>
 	</main>
 
